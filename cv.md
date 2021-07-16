@@ -2,7 +2,8 @@
 
 *24maryna@tut.by* | *+375 (33) 330-16-14* | [My GitHub](https://github.com/MadPanda26)
 
-> Aspired to create beautiful things ♥
+Aspired to create beautiful things ♥
+
 ### Skills and Abilities:
 English C1 | HTML | CSS 
 * I care about sucess of my work.
