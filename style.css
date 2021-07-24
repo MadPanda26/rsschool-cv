@@ -1,0 +1,54 @@
+a:link {
+  color: rgb(1, 63, 68); /* unvisited link */
+}
+a:visited {
+  color: rgb(1, 63, 68); /* visited link */
+}
+a:hover {
+  color: rgb(215, 241, 245); /* mouse over link */
+}
+
+body {
+  background: no-repeat url(background.jpg) ;
+  background-size: cover;
+}
+
+.general {
+  background: #b7c1c2; 
+  color: rgb(1, 63, 68); 
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  line-height: 21px;
+}
+
+.avatar {
+  width: 30%;
+  border-radius: 50%;
+  float: right;
+}
+
+.name {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.contacts {
+  background: #688285; 
+  color: #b7c1c2; 
+  padding: 10px;
+  font-family: cursive, sans-serif;
+}
+
+.quote{
+  font-style: italic;
+}
+
+footer {
+  padding: 10px; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
