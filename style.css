@@ -1,36 +1,54 @@
-body {
-  background: url(background.jpg);
-  width: 100%;
-  height: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  display: flex;
-  overflow: auto;   
+a:link {
+  color: rgb(1, 63, 68); /* unvisited link */
 }
+a:visited {
+  color: rgb(1, 63, 68); /* visited link */
+}
+a:hover {
+  color: rgb(215, 241, 245); /* mouse over link */
+}
+
+body {
+  background: no-repeat url(background.jpg) ;
+  background-size: cover;
+}
+
 .general {
   background: #b7c1c2; 
   color: rgb(1, 63, 68); 
   margin: auto;
-  clear: right;
   padding: 20px;
+  width: 50%;
+  line-height: 21px;
 }
+
 .avatar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
+  width: 30%;
   border-radius: 50%;
   float: right;
 }
+
 .name {
   text-align: center;
-  font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+  font-family: 'Times New Roman', Times, serif;
+
 }
+
 .contacts {
-  background: #4e6264; 
-  color: rgb(162, 188, 190); 
-  float: center;
-  padding: 30px;
-  clear: right;
+  background: #688285; 
+  color: #b7c1c2; 
+  padding: 10px;
+  font-family: cursive, sans-serif;
 }
+
+.quote{
+  font-style: italic;
+}
+
+footer {
+  padding: 10px; 
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
