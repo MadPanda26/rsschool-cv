@@ -1,1 +1,1 @@
-https://MadPanda26.github.io/rsschool-cv/cv
+https://MadPanda26.github.io/rsschool-cv/
