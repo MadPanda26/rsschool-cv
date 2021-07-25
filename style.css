@@ -9,8 +9,7 @@ a:hover {
 }
 
 body {
-  background: no-repeat url(background.jpg) ;
-  background-size: cover;
+  background: url(background.jpg) center / cover no-repeat;
 }
 
 .general {
@@ -23,9 +22,10 @@ body {
 }
 
 .avatar {
-  width: 30%;
+  position: absolute;
+  right: 10px;
+  width: 12em;
   border-radius: 50%;
-  float: right;
 }
 
 .name {
@@ -35,6 +35,7 @@ body {
 }
 
 .contacts {
+  position: relative;
   background: #688285; 
   color: #b7c1c2; 
   padding: 10px;
@@ -45,10 +46,15 @@ body {
   font-style: italic;
 }
 
-footer {
-  padding: 10px; 
+.footer {
+  padding: 10px;
+  margin: 0 auto;
+  width: 45%;
   text-align: center;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
+.logo {
+  width: 70px;
+}
